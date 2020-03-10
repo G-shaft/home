@@ -1,6 +1,10 @@
 import os
 import telebot
+from telebot import apihelper
 
+apihelper.proxy ={
+    'https':'socks5h://j4z56m:8hzwbJ@45.94.36.100:8000'
+}
 #from telebot import apihelper
 API_TOKEN = '1111494654:AAFGfe1jLP5A1JD79hSeM-97y4wVbzToFGo'
 
