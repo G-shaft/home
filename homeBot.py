@@ -5,7 +5,6 @@ import telebot
 API_TOKEN = '1111494654:AAFGfe1jLP5A1JD79hSeM-97y4wVbzToFGo'
 
 bot = telebot.TeleBot(API_TOKEN)
-user = bot.get_me()
 
 # Handle '/start' and '/help'
 @bot.message_handler(commands=['help', 'start'])
